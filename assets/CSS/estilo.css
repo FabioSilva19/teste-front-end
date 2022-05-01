@@ -1,2 +1,798 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Poppins;
+  src: url(../fontes/Poppins-Regular.ttf);
+}
+
+/* line 6, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+/* line 15, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+body {
+  position: relative;
+}
+
+/* line 21, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header {
+  z-index: 100;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #fff;
+  width: 100%;
+}
+
+/* line 27, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .top-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 32, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .top-header p {
+  display: flex;
+  align-items: center;
+}
+
+/* line 35, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .top-header p img {
+  margin-right: 5px;
+}
+
+/* line 38, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .top-header p span {
+  color: #FBB900;
+}
+
+/* line 44, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 49, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .main-header .logo {
+  width: 178px;
+  height: 48px;
+}
+
+/* line 54, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .main-header .search-top {
+  height: 48px;
+  width: 657px;
+  background: #FEF6E7;
+  padding: 24px;
+  background-image: url(../images/searchIcon.png);
+  background-repeat: no-repeat;
+  background-position: 617px center;
+  border: none;
+  border-radius: 10px;
+}
+
+/* line 66, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .main-header .menu-main-header {
+  display: flex;
+  align-items: center;
+}
+
+/* line 69, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header .main-header .menu-main-header li {
+  margin-left: 30px;
+}
+
+/* line 76, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header nav .nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+/* line 81, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header nav .nav-top a {
+  color: grey;
+}
+
+/* line 85, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+header nav .nav-top .ofertas {
+  color: #FBB900;
+}
+
+/* line 94, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner {
+  width: 100%;
+  height: 490px;
+  background-image: url(../images/Banner-principal.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -10px;
+  z-index: -10;
+}
+
+/* line 104, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .banner-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 387px;
+}
+
+/* line 110, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .banner-main button {
+  width: 130px;
+  height: 410px;
+  border: 1px solid black;
+  background-image: url(../images/arrow-left.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 10px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+/* line 122, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .banner-main button:last-child {
+  background-image: url(../images/arrow-right.png);
+}
+
+/* line 126, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .banner-main .banner-texto {
+  width: 100%;
+}
+
+/* line 128, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .banner-main .banner-texto h2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* line 135, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .banner-main .banner-texto a {
+  width: 131px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #FBB900;
+  border-radius: 10px;
+  margin-top: 24px;
+}
+
+/* line 151, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .breadCrumb {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 154, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner .breadCrumb button {
+  margin: 0 8px;
+  width: 12px;
+  height: 12px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+/* line 164, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.banner button.next {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: calc(50% - 16px);
+  top: 474px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+  background-image: url(../images/arow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: none;
+}
+
+/* line 181, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  padding: 0 56px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 188, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias h3 {
+  width: 100%;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+/* line 195, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias div {
+  height: 310px;
+  width: 277px;
+}
+
+/* line 198, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias div a {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  color: #9F9F9F;
+  font-size: 16px;
+}
+
+/* line 204, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias div a img {
+  width: 277px;
+  height: 277px;
+  border-radius: 15px;
+}
+
+/* line 214, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+  border-radius: 50%;
+  border: none;
+  background-image: url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5px 10px;
+  background-blend-mode: exclusion;
+  top: 50%;
+  left: 40px;
+  z-index: 50;
+}
+
+/* line 231, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.categorias button:last-child {
+  left: 1272px;
+  background-image: url(../images/arrow-right.png);
+}
+
+/* line 240, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 64px;
+  padding: 0 56px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 247, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+/* line 253, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas a {
+  color: #FBB900;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* line 259, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas .main-principais-marcas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 264, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas .main-principais-marcas a {
+  width: 178px;
+  height: 178px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #E5E5E5;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  border-radius: 15px;
+}
+
+/* line 274, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas .main-principais-marcas button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+  border-radius: 50%;
+  border: none;
+  background-image: url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5px 10px;
+  background-blend-mode: exclusion;
+  top: 58%;
+  left: 40px;
+  z-index: 50;
+}
+
+/* line 291, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.principais-marcas .main-principais-marcas button:last-child {
+  left: 1272px;
+  background-image: url(../images/arrow-right.png);
+}
+
+/* line 299, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 56px;
+  margin-top: 88px;
+}
+
+/* line 305, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .parceiros-div {
+  width: 574px;
+  height: 350px;
+  background-image: url(../images/dog5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  overflow: hidden;
+}
+
+/* line 316, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .parceiros-div .parceiros-div-bg {
+  padding: 0 40px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 115%);
+}
+
+/* line 319, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .parceiros-div .parceiros-div-bg h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+/* line 327, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .parceiros-div .parceiros-div-bg p {
+  font-weight: 400;
+  width: 181px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+/* line 337, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .breadCrumb {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+/* line 341, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .breadCrumb button {
+  margin: 0 8px;
+  width: 12px;
+  height: 12px;
+  background: #9F9F9F;
+  border: 2px solid #9F9F9F;
+  border-radius: 50%;
+}
+
+/* line 352, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos a {
+  display: flex;
+  width: 131px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #FBB900;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* line 366, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .assinatura-caoselheiro {
+  display: flex;
+  justify-content: space-between;
+  width: 630px;
+  height: 350px;
+  background-color: #FEF6E7;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 40px;
+  position: relative;
+}
+
+/* line 376, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .assinatura-caoselheiro h3 {
+  font-size: 32px;
+  font-weight: 700px;
+  margin: 46px 0 16px;
+}
+
+/* line 382, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .assinatura-caoselheiro p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9F9F9F;
+  margin-bottom: 32px;
+}
+
+/* line 390, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.infos .assinatura-caoselheiro img {
+  width: 241px;
+  height: 375px;
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+/* line 401, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog {
+  margin-top: 88px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 56px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 408, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 11px;
+  width: 100%;
+}
+
+/* line 415, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog article {
+  width: 277px;
+  border-radius: 20px;
+  background-color: #FEF6E7;
+  overflow: hidden;
+}
+
+/* line 420, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog article img {
+  width: 277px;
+  height: 160px;
+}
+
+/* line 424, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog article h4 {
+  margin: 24px 24px 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* line 431, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog article p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9F9F9F;
+  margin: 0 24px 24px;
+}
+
+/* line 439, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog article a {
+  width: 153px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #FBB900;
+  border-radius: 10px;
+  margin: 0 24px 24px;
+}
+
+/* line 452, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog button.beforeBtn, .blog button.afterBtn {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+  border-radius: 50%;
+  border: none;
+  background-image: url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5px 10px;
+  background-blend-mode: exclusion;
+  top: 205px;
+  left: 40px;
+  z-index: 50;
+}
+
+/* line 469, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog button.afterBtn {
+  left: 1272px;
+  background-image: url(../images/arrow-right.png);
+}
+
+/* line 475, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog .breadCrumb {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  width: 100%;
+}
+
+/* line 480, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.blog .breadCrumb button {
+  margin: 0 8px;
+  width: 12px;
+  height: 12px;
+  background: #9F9F9F;
+  border: 2px solid #9F9F9F;
+  border-radius: 50%;
+}
+
+/* line 492, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.instagram {
+  margin: 88px 0 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 499, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.instagram h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0 56px 32px;
+}
+
+/* line 505, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.instagram a {
+  color: #FBB900;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-right: 56px;
+}
+
+/* line 511, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.instagram .instagram-images {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 516, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.instagram .instagram-images img {
+  width: 243px;
+}
+
+/* line 522, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 87px;
+}
+
+/* line 528, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter img {
+  width: 281px;
+  height: 104px;
+}
+
+/* line 532, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter form {
+  width: 772px;
+  height: 346px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FEF6E7;
+}
+
+/* line 540, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter form h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #4D4D4D;
+  margin: 40px 0 24px;
+}
+
+/* line 549, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter form .input-data {
+  width: 343px;
+  height: 48px;
+  margin-bottom: 10px;
+  padding-left: 72px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+}
+
+/* line 562, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter form input[type=text] {
+  background-image: url(../images/User.png);
+  background-repeat: no-repeat;
+  background-position: 23px center;
+}
+
+/* line 568, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter form input[type=email] {
+  background-image: url(../images/EnvelopeSimple.png);
+  background-repeat: no-repeat;
+  background-position: 23px center;
+}
+
+/* line 575, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+.newsletter form .submit {
+  width: 145px;
+  height: 40px;
+  margin-top: 22px;
+  background: #FBB900;
+  border: 1px solid #F0D075;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* line 590, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer {
+  display: grid;
+  grid-template-columns: 489px 791px;
+  grid-template-rows: 470px 134px;
+  grid: "sobre links" "sobre rodape";
+  background-color: #FBB900;
+}
+
+/* line 600, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .about {
+  text-align: center;
+  border-right: 1px solid #fff;
+  grid-area: sobre;
+}
+
+/* line 604, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .about h3 {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 48px;
+}
+
+/* line 612, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .about h3:last-of-type {
+  margin-top: 56px;
+}
+
+/* line 616, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .about img {
+  margin: 32px 16px 0;
+}
+
+/* line 620, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .about p {
+  width: 339px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+/* line 633, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links {
+  display: grid;
+  grid-template-columns: 266.66px 266.66px 266.63px;
+  grid-template-rows: 261px 149px;
+  padding: 56px 0 0 56px;
+  color: #fff;
+  grid: "assinatura institucional atendimento" "pagamento  pagamento seguranca";
+}
+
+/* line 640, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* line 648, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links li {
+  text-align: left;
+}
+
+/* line 652, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  text-align: left;
+}
+
+/* line 664, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .assinatura {
+  grid-area: assinatura;
+}
+
+/* line 668, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .institucional {
+  grid-area: institucional;
+}
+
+/* line 672, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .atendimento {
+  grid-area: atendimento;
+}
+
+/* line 676, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .pagamento {
+  grid-area: pagamento;
+}
+
+/* line 679, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .pagamento img {
+  width: 66px;
+  height: 38px;
+  margin: 4px 7px;
+}
+
+/* line 685, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .pagamento img:nth-of-type(1), footer .links .pagamento img:nth-of-type(4) {
+  margin-left: 0;
+}
+
+/* line 690, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .links .seguranca {
+  grid-area: seguranca;
+}
+
+/* line 697, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .rodape {
+  color: #fff;
+  padding: 40px 56px;
+  display: flex;
+  border-top: 1px solid #fff;
+  align-items: center;
+}
+
+/* line 703, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+footer .rodape img:first-of-type {
+  margin-left: 256px;
+  margin-right: 32px;
+}
 
 /*# sourceMappingURL=estilo.css.map */

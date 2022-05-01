@@ -10,17 +10,17 @@
 <body>
     <header>
         <div class="top-header">
-            <p><img src="assets/images/ShieldCheck.png" alt="Compra seura">Compra <span>100% segura</span></p>
-            <p><img src="assets/images/Truck.png" alt="Frete grátis"><span>Frete grátis</span> acima de R$ 200</p>
-            <p><img src="assets/images/CreditCard.png" alt=""><span>Parcele</span> suas compras</p>
+            <p><img src="assets/images/ShieldCheck.png" alt="Compra seura">Compra&nbsp;<span>100% segura</span></p>
+            <p><img src="assets/images/Truck.png" alt="Frete grátis"><span>Frete grátis&nbsp;</span> acima de R$ 200</p>
+            <p><img src="assets/images/CreditCard.png" alt=""><span>Parcele&nbsp;</span>suas compras</p>
         </div>
 
         <div class="main-header">
-            <img src="assets/images/Logo.png" alt="O cãoselhiero" title="O cãoselheiro">
-            <input type="search" name="search" id="search-top" placeholder="O que está procurando?">
+            <img src="assets/images/Logo.png" alt="O cãoselhiero" title="O cãoselheiro" class="logo">
+            <input type="search" name="search" id="search-top" placeholder="O que está procurando?" class="search-top">
 
-            <ul>
-                <li><a href="#"><img src="assets/images/searchIcon.png" alt="Icon" title="Icon"></a></li>
+            <ul class="menu-main-header">
+                <li><a href="#"><img src="assets/images/Vector.png" alt="Icon" title="Icon"></a></li>
                 <li><a href="#"><img src="assets/images/coracao.png" alt="Wishlist" title="Wishlist"></a></li>
                 <li><a href="#"><img src="assets/images/UserCircle.png" alt="Profile" title="Profile"></a></li>
                 <li><a href="#"><img src="assets/images/ShoppingCart.png" alt="Cart" title="Cart"></a></li>
@@ -28,14 +28,14 @@
         </div>
 
         <nav>
-            <ul>
+            <ul class="nav-top">
                 <li><a href="#" title="Brincar">Brincar</a></li>
                 <li><a href="#" title="Morder">Morder</a></li>
                 <li><a href="#" title="Comer">Comer</a></li>
                 <li><a href="#" title="Passear">Passear</a></li>
                 <li><a href="#" title="Casa e conforto">Casa e conforto</a></li>
                 <li><a href="#" title="Educação">Educação</a></li>
-                <li><a href="#" title="Ofertas">Ofertas</a></li>
+                <li><a href="#" title="Ofertas" class="ofertas">Ofertas</a></li>
                 <li><a href="#" title="Coleção de outono"><img src="assets/images/coroa.png" alt="Coroa"> Coleção de outono</a></li>
             </ul>
         </nav>
@@ -43,48 +43,50 @@
     </header>
 
     <div class="banner">
-        <button>
+        <div class="banner-main">
+            <button>
 
-        </button>
-        <div>
-            <h2>As melhores guias para os melhores passeios.</h2>
-            <a href="">Confira</a>
+            </button>
+            <div class="banner-texto">
+                <h2>As melhores guias<br> para os melhores<br> passeios.</h2>
+                <a href="" title="Confira">Confira</a>
+            </div>
+            <button>
+    
+            </button>
         </div>
-        <button>
-
-        </button>
+       
         <div class="breadCrumb">
             <button></button>
             <button></button>
             <button></button>
-            <button></button>
         </div>
-        <button></button>
+        <button class="next"></button>
     </div>
 
     <section class="categorias">
         <h3>Categorias</h3>
         <button></button>
-        <div><a href="" title="Brinquedos"><img src="assets/images/dog1.jpg" alt="Brinquedos">Brinquedos</a></div>
-        <div><a href="" title="Petiscos"><img src="assets/images/dog2.jpg" alt="Petiscos">Petiscos</a></div>
-        <div><a href="" title="Guias"><img src="assets/images/dog3.jpg" alt="Guias">Guias</a></div>
-        <div><a href="" title="Higiene"><img src="assets/images/dog4.jpg" alt="Higiene">Higiene</a></div>
+        <div class="categoria-card"><a href="" title="Brinquedos"><img src="assets/images/dog1.jpg" alt="Brinquedos">Brinquedos</a></div>
+        <div class="categoria-card"><a href="" title="Petiscos"><img src="assets/images/dog2.jpg" alt="Petiscos">Petiscos</a></div>
+        <div class="categoria-card"><a href="" title="Guias"><img src="assets/images/dog3.jpg" alt="Guias">Guias</a></div>
+        <div class="categoria-card"><a href="" title="Higiene"><img src="assets/images/dog4.jpg" alt="Higiene">Higiene</a></div>
         <button></button>
     </section>
 
     <section class="principais-marcas">
         <h3>Principais marcas</h3>
         <a href="#" title="ver todos">Ver todos</a>
-        <div>
+        <div class="main-principais-marcas">
             <button></button>
-            <div>
+            
                 <a href=""><img src="assets/images/buddy.png" alt="Buddy" title="buddy"></a>
                 <a href=""><img src="assets/images/petgames.png" alt="petgames" title="petgames"></a>
                 <a href=""><img src="assets/images/kong.png" alt="kong" title="kong"></a>
                 <a href=""><img src="assets/images/buddy.png" alt="Buddy" title="buddy"></a>
                 <a href=""><img src="assets/images/petgames.png" alt="petgames" title="petgames"></a>
                 <a href=""><img src="assets/images/kong.png" alt="kong" title="kong"></a>
-            </div>
+            
             
             <button></button>
         </div>
@@ -92,11 +94,14 @@
 
 
     <section class="infos">
-        <div class="parceiros-div">
-            <div class="parceiros">
-                <h3>Parceiros</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur</p>
-                <a href="#">confira</a>
+        <div >
+            <div class="parceiros-div">
+                <div class="parceiros-div-bg">
+                    <h3>Parceiros</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <a href="#">confira</a>
+                </div>
+                
             </div>
             <div class="breadCrumb">
                 <button></button>
@@ -106,38 +111,44 @@
             </div>
         </div>
         <div class="assinatura-caoselheiro">
-           
+            <div class="assinatura-caoselheiro-main">
+                <h3>Assinatura <br>
+                    Cãoselheiro</h3>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Auctor <br> adipiscing quis non sed.</p>
+            <a href="#">confira</a>
+            </div>
+            <img src="assets/images/dog6.png" alt="">
         </div>
     </section>
 
     <section class="blog">
         <h3>Conheça o nosso blog</h3>
-        <button></button>
+        <button class="beforeBtn"></button>
         <article>
-            <img src="" alt="Artigo" title="Artigo">
+            <img src="assets/images/dog7.jpg" alt="Artigo" title="Artigo">
             <h4>Lorem ipsum dolor sit amet consectetur.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur elit adipiscing dignissim posuere vitae.</p>
             <a href="#" title="Ler artigo">Ler artigo</a>
         </article>
         <article>
-            <img src="" alt="Artigo" title="Artigo">
+            <img src="assets/images/dog8.jpg" alt="Artigo" title="Artigo">
             <h4>Lorem ipsum dolor sit amet consectetur.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur elit adipiscing dignissim posuere vitae.</p>
             <a href="#" title="Ler artigo">Ler artigo</a>
         </article>
         <article>
-            <img src="" alt="Artigo" title="Artigo">
+            <img src="assets/images/dog9.jpg" alt="Artigo" title="Artigo">
             <h4>Lorem ipsum dolor sit amet consectetur.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur elit adipiscing dignissim posuere vitae.</p>
             <a href="#" title="Ler artigo">Ler artigo</a>
         </article>
         <article>
-            <img src="" alt="Artigo" title="Artigo">
+            <img src="assets/images/dog10.jpg" alt="Artigo" title="Artigo">
             <h4>Lorem ipsum dolor sit amet consectetur.</h4>
             <p>Lorem ipsum dolor sit amet, consectetur elit adipiscing dignissim posuere vitae.</p>
             <a href="#" title="Ler artigo">Ler artigo</a>
         </article>
-        <button></button>
+        <button class="afterBtn"></button>
         <div class="breadCrumb">
             <button></button>
             <button></button>
@@ -147,31 +158,33 @@
     </section>
 
     <section class="instagram">
-        <h3>Instagram</h3><a href="">+seguit</a>
+        <h3>Instagram</h3><a href="">+seguir</a>
         <div class="instagram-images">
-            <img src="" alt="Insta pic" title="Insta pic">
-            <img src="" alt="Insta pic" title="Insta pic">
-            <img src="" alt="Insta pic" title="Insta pic">
-            <img src="" alt="Insta pic" title="Insta pic">
-            <img src="" alt="Insta pic" title="Insta pic">
+            <img src="assets/images/dog11.jpg" alt="Insta pic" title="Insta pic">
+            <img src="assets/images/dog13.jpg" alt="Insta pic" title="Insta pic">
+            <img src="assets/images/dog12.jpg" alt="Insta pic" title="Insta pic">
+            <img src="assets/images/dog11.jpg" alt="Insta pic" title="Insta pic">
+            <img src="assets/images/dog13.jpg" alt="Insta pic" title="Insta pic">
+            <img src="assets/images/dog12.jpg" alt="Insta pic" title="Insta pic">
         </div>
     </section>
 
     <section class="newsletter">
-        <img src="" alt="">
+        <img src="assets/images/dog-cadastro.png" alt="">
         <form action="">
-            <input type="text" name="Nome" id="nome">
-            <input type="email" name="Email" id="email">
-            <input type="submit" value="Enviar">
+            <h4>Se inscreva para receber <br> novidades e promoções</h4>
+            <input type="text" name="Nome" id="nome" class="input-data" placeholder="Digite seu nome">
+            <input type="email" name="Email" id="email" class="input-data" placeholder="Digite seu email">
+            <input type="submit" value="Enviar" class="submit">
         </form>
     </section>
 
     <footer>
         <section class="about">
-            <h3>Nos siga nas nossas redes sociais</h3>
-            <a href="#" title="Facebook"><img src="" alt="Facebook"></a>
-            <a href="#" title="Instagram"><img src="" alt="Instagram"></a>
-            <a href="#" title="Youtube"><img src="" alt="Youtube"></a>
+            <h3>Nos siga nas <br> nossas redes sociais</h3>
+            <a href="#" title="Facebook"><img src="assets/images/facebook.png" alt="Facebook"></a>
+            <a href="#" title="Instagram"><img src="assets/images/instagram.png" alt="Instagram"></a>
+            <a href="#" title="Youtube"><img src="assets/images/youtube.png" alt="Youtube"></a>
 
             <h3>Sobre O Cãoselheiro</h3>
             <p>
@@ -179,13 +192,12 @@
             </p>
         </section>
         <section class="links">
-            <div>
+            <div class="assinatura">
                 <h3>Assinatura</h3>
-            </div>
-            <div>
+            
                 <h3>Parceiros</h3>
             </div>
-            <div>
+            <div class="institucional">
                 <h3>Institucional</h3>
                 <ul>
                     <li><a href="">Quem somos</a></li>
@@ -195,7 +207,7 @@
                     <li><a href="">Regras de frete</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="atendimento">
                 <h3>Atendimento</h3>
                 <ul>
                     <li><a href="">Fale conosco</a></li>
@@ -204,11 +216,11 @@
                     <li><a href="">Trabalhe conosco</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="pagamento">
                 <h3>Formas de pagamento</h3>
                 <img src="assets/images/elo.png" alt="elo" title="elo">
                 <img src="assets/images/visa.png" alt="visa" title="visa">
-                <img src="assets/images/mastercard.png" alt="mastercard" title="mastercard">
+                <img src="assets/images/mastercard.png" alt="mastercard" title="mastercard"> <br>
                 <img src="assets/images/barcode.png" alt="barcode" title="barcode">
                 <img src="assets/images/dinersClub.png" alt="dinersClub" title="dinersClub">
                 <img src="assets/images/americanExpress.png" alt="americanExpress" title="americanExpress">
@@ -223,6 +235,8 @@
                 CNPJ: 30.324.633/0001-16<br>
                 © Todos os direitos reservados. 2021
             </p>
+            <img src="assets/images/Vtex.png" alt="">
+            <img src="assets/images/econverse.png" alt="">
         </section>
     </footer>
 
