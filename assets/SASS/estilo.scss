@@ -237,6 +237,225 @@ header{
      
  }
 
+ .vitrine-main{
+     display: flex;
+     justify-content: space-between;
+     padding: 0 56px;
+     flex-wrap: wrap;
+     margin-top: 88px;
+     position: relative;
+     h3{
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+        
+    nav{
+        button{
+            padding: 10px 16px;
+            box-sizing: content-box;
+            background-color: #fff;
+            border-radius: 6px;
+            border: 1px solid #9F9F9F;
+            color: #9F9F9F;
+            text-transform: uppercase;
+            margin: 0 8px;
+            font-weight: 900;
+        }
+
+        button.active{
+            background-color: #FBB900;
+            color: #fff;
+            border: none;
+        }
+
+        button:first-child{
+            background-color: #fff;
+            background-image: url(../images/y-left-arrow.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            border: none;
+        }
+
+        button:last-child{
+            background-color: #fff;
+            background-image: url(../images/y-right-arrow.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .vitrine-produtos{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .produto{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            img{
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            button{
+                width: 220px;
+                height: 48px;
+                background: #FBB900;
+                border: 1px solid #F0D075;
+                border-radius: 10px;
+            }
+
+            p{
+                width: 145px;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 21px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            .old-price{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                text-decoration-line: line-through;
+                color: #9F9F9F;
+                margin-top: 14px;
+            }
+
+            .new-price{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                color: #4D4D4D;
+            }
+
+            .discount-price{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FBB900;
+
+            }
+
+            .aviso{
+                font-size: 12px;
+                color: #4D4D4D;
+                margin-bottom: 14px;
+            }
+
+            button{
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+
+            span:first-child{
+                width: 100px;
+                height: 40px;
+                background: #FEF6E7;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FBB900;
+                position: absolute;
+                left: 0;
+                
+            }
+
+            .favoritar{
+                background-color: #fff;
+                width: 30px;
+                height: 30px;
+                background-image: url(../images/coracao.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                border: none;
+                position: absolute;
+                right: 20px;
+
+            }
+        }
+
+        .owl-dots{
+            display: flex;
+            justify-content: center;
+
+            margin-top: 78px;
+            .owl-dot{
+                width: 12px;
+                height: 12px;
+                background: #fff;
+                border: 2px solid #9F9F9F;
+                box-sizing: border-box;
+                border-radius: 50%;
+                margin: 0 4px;
+            }
+
+            .owl-dot.active{
+                background: #9F9F9F;
+            }
+
+            
+        }
+
+        
+
+       
+    }
+
+    a{
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #FBB900;
+
+        position: absolute;
+        bottom: 30px;
+        left: 47%;
+    }
+
+    button.before, button.next{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+        border-radius: 50%;
+        border: none;
+        background-image: url(../images/arrow-left.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 5px 10px;
+        background-blend-mode: exclusion;
+        top: 50%;
+        left: 40px;
+        z-index: 50;
+    }
+
+    button.next{
+        left: 1272px;
+        background-image: url(../images/arrow-right.png);
+        
+    }
+ }
+
  .principais-marcas{
     display: flex;
     flex-wrap: wrap;

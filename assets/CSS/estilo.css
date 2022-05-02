@@ -1,10 +1,9 @@
-@charset "UTF-8";
 @font-face {
   font-family: Poppins;
   src: url(../fontes/Poppins-Regular.ttf);
 }
 
-/* line 6, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 6, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +13,12 @@
   box-sizing: border-box;
 }
 
-/* line 15, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 15, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 body {
   position: relative;
 }
 
-/* line 21, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 21, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header {
   z-index: 100;
   border-bottom-left-radius: 5px;
@@ -28,7 +27,7 @@ header {
   width: 100%;
 }
 
-/* line 27, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 27, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .top-header {
   display: flex;
   justify-content: space-around;
@@ -36,23 +35,23 @@ header .top-header {
   border-bottom: 1px solid #ccc;
 }
 
-/* line 32, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 32, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .top-header p {
   display: flex;
   align-items: center;
 }
 
-/* line 35, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 35, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .top-header p img {
   margin-right: 5px;
 }
 
-/* line 38, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 38, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .top-header p span {
   color: #FBB900;
 }
 
-/* line 44, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 44, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .main-header {
   display: flex;
   justify-content: space-between;
@@ -60,13 +59,13 @@ header .main-header {
   border-bottom: 1px solid #ccc;
 }
 
-/* line 49, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 49, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .main-header .logo {
   width: 178px;
   height: 48px;
 }
 
-/* line 54, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 54, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .main-header .search-top {
   height: 48px;
   width: 657px;
@@ -79,35 +78,35 @@ header .main-header .search-top {
   border-radius: 10px;
 }
 
-/* line 66, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 66, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .main-header .menu-main-header {
   display: flex;
   align-items: center;
 }
 
-/* line 69, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 69, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header .main-header .menu-main-header li {
   margin-left: 30px;
 }
 
-/* line 76, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 76, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header nav .nav-top {
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
 }
 
-/* line 81, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 81, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header nav .nav-top a {
   color: grey;
 }
 
-/* line 85, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 85, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 header nav .nav-top .ofertas {
   color: #FBB900;
 }
 
-/* line 94, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 94, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner {
   width: 100%;
   height: 490px;
@@ -120,7 +119,7 @@ header nav .nav-top .ofertas {
   z-index: -10;
 }
 
-/* line 104, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 104, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .banner-main {
   display: flex;
   justify-content: space-between;
@@ -128,7 +127,7 @@ header nav .nav-top .ofertas {
   height: 387px;
 }
 
-/* line 110, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 110, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .banner-main button {
   width: 130px;
   height: 410px;
@@ -141,17 +140,17 @@ header nav .nav-top .ofertas {
   border: none;
 }
 
-/* line 122, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 122, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .banner-main button:last-child {
   background-image: url(../images/arrow-right.png);
 }
 
-/* line 126, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 126, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .banner-main .banner-texto {
   width: 100%;
 }
 
-/* line 128, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 128, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .banner-main .banner-texto h2 {
   font-size: 40px;
   line-height: 60px;
@@ -159,7 +158,7 @@ header nav .nav-top .ofertas {
   font-weight: 900;
 }
 
-/* line 135, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 135, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .banner-main .banner-texto a {
   width: 131px;
   height: 48px;
@@ -172,13 +171,13 @@ header nav .nav-top .ofertas {
   margin-top: 24px;
 }
 
-/* line 151, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 151, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .breadCrumb {
   display: flex;
   justify-content: center;
 }
 
-/* line 154, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 154, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner .breadCrumb button {
   margin: 0 8px;
   width: 12px;
@@ -188,7 +187,7 @@ header nav .nav-top .ofertas {
   border-radius: 50%;
 }
 
-/* line 164, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 164, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .banner button.next {
   position: absolute;
   width: 32px;
@@ -204,7 +203,7 @@ header nav .nav-top .ofertas {
   border: none;
 }
 
-/* line 181, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 181, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias {
   display: flex;
   flex-wrap: wrap;
@@ -214,7 +213,7 @@ header nav .nav-top .ofertas {
   position: relative;
 }
 
-/* line 188, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 188, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias h3 {
   width: 100%;
   font-size: 32px;
@@ -222,13 +221,13 @@ header nav .nav-top .ofertas {
   margin-bottom: 24px;
 }
 
-/* line 195, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 195, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias div {
   height: 310px;
   width: 277px;
 }
 
-/* line 198, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 198, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias div a {
   display: block;
   text-align: center;
@@ -237,14 +236,14 @@ header nav .nav-top .ofertas {
   font-size: 16px;
 }
 
-/* line 204, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 204, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias div a img {
   width: 277px;
   height: 277px;
   border-radius: 15px;
 }
 
-/* line 214, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 214, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias button {
   position: absolute;
   width: 32px;
@@ -262,13 +261,246 @@ header nav .nav-top .ofertas {
   z-index: 50;
 }
 
-/* line 231, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 231, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .categorias button:last-child {
   left: 1272px;
   background-image: url(../images/arrow-right.png);
 }
 
-/* line 240, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 240, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 56px;
+  flex-wrap: wrap;
+  margin-top: 88px;
+  position: relative;
+}
+
+/* line 247, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+/* line 254, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main nav button {
+  padding: 10px 16px;
+  box-sizing: content-box;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #9F9F9F;
+  color: #9F9F9F;
+  text-transform: uppercase;
+  margin: 0 8px;
+  font-weight: 900;
+}
+
+/* line 266, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main nav button.active {
+  background-color: #FBB900;
+  color: #fff;
+  border: none;
+}
+
+/* line 272, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main nav button:first-child {
+  background-color: #fff;
+  background-image: url(../images/y-left-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+/* line 280, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main nav button:last-child {
+  background-color: #fff;
+  background-image: url(../images/y-right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 290, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 295, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* line 304, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto img {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* line 309, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto button {
+  width: 220px;
+  height: 48px;
+  background: #FBB900;
+  border: 1px solid #F0D075;
+  border-radius: 10px;
+}
+
+/* line 317, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto p {
+  width: 145px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 326, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto .old-price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #9F9F9F;
+  margin-top: 14px;
+}
+
+/* line 336, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto .new-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+/* line 344, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto .discount-price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FBB900;
+}
+
+/* line 352, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto .aviso {
+  font-size: 12px;
+  color: #4D4D4D;
+  margin-bottom: 14px;
+}
+
+/* line 358, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto button {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 367, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto span:first-child {
+  width: 100px;
+  height: 40px;
+  background: #FEF6E7;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FBB900;
+  position: absolute;
+  left: 0;
+}
+
+/* line 381, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .produto .favoritar {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/coracao.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  position: absolute;
+  right: 20px;
+}
+
+/* line 395, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 78px;
+}
+
+/* line 400, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .owl-dots .owl-dot {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border: 2px solid #9F9F9F;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+/* line 410, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main .vitrine-produtos .owl-dots .owl-dot.active {
+  background: #9F9F9F;
+}
+
+/* line 422, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main a {
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FBB900;
+  position: absolute;
+  bottom: 30px;
+  left: 47%;
+}
+
+/* line 435, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main button.before, .vitrine-main button.next {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
+  border-radius: 50%;
+  border: none;
+  background-image: url(../images/arrow-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5px 10px;
+  background-blend-mode: exclusion;
+  top: 50%;
+  left: 40px;
+  z-index: 50;
+}
+
+/* line 452, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
+.vitrine-main button.next {
+  left: 1272px;
+  background-image: url(../images/arrow-right.png);
+}
+
+/* line 459, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas {
   display: flex;
   flex-wrap: wrap;
@@ -278,28 +510,28 @@ header nav .nav-top .ofertas {
   position: relative;
 }
 
-/* line 247, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 466, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas h3 {
   font-size: 32px;
   line-height: 48px;
   margin-bottom: 24px;
 }
 
-/* line 253, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 472, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas a {
   color: #FBB900;
   text-decoration: underline;
   font-size: 20px;
 }
 
-/* line 259, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 478, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas .main-principais-marcas {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 264, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 483, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas .main-principais-marcas a {
   width: 178px;
   height: 178px;
@@ -311,7 +543,7 @@ header nav .nav-top .ofertas {
   border-radius: 15px;
 }
 
-/* line 274, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 493, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas .main-principais-marcas button {
   position: absolute;
   width: 32px;
@@ -329,13 +561,13 @@ header nav .nav-top .ofertas {
   z-index: 50;
 }
 
-/* line 291, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 510, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .principais-marcas .main-principais-marcas button:last-child {
   left: 1272px;
   background-image: url(../images/arrow-right.png);
 }
 
-/* line 299, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 518, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos {
   display: flex;
   justify-content: space-between;
@@ -343,7 +575,7 @@ header nav .nav-top .ofertas {
   margin-top: 88px;
 }
 
-/* line 305, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 524, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .parceiros-div {
   width: 574px;
   height: 350px;
@@ -357,13 +589,13 @@ header nav .nav-top .ofertas {
   overflow: hidden;
 }
 
-/* line 316, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 535, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .parceiros-div .parceiros-div-bg {
   padding: 0 40px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 115%);
 }
 
-/* line 319, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 538, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .parceiros-div .parceiros-div-bg h3 {
   font-weight: 700;
   font-size: 40px;
@@ -372,7 +604,7 @@ header nav .nav-top .ofertas {
   margin-bottom: 8px;
 }
 
-/* line 327, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 546, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .parceiros-div .parceiros-div-bg p {
   font-weight: 400;
   width: 181px;
@@ -382,14 +614,14 @@ header nav .nav-top .ofertas {
   color: #fff;
 }
 
-/* line 337, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 556, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .breadCrumb {
   display: flex;
   justify-content: center;
   margin-top: 24px;
 }
 
-/* line 341, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 560, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .breadCrumb button {
   margin: 0 8px;
   width: 12px;
@@ -399,7 +631,7 @@ header nav .nav-top .ofertas {
   border-radius: 50%;
 }
 
-/* line 352, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 571, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos a {
   display: flex;
   width: 131px;
@@ -412,7 +644,7 @@ header nav .nav-top .ofertas {
   margin-bottom: 40px;
 }
 
-/* line 366, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 585, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .assinatura-caoselheiro {
   display: flex;
   justify-content: space-between;
@@ -425,14 +657,14 @@ header nav .nav-top .ofertas {
   position: relative;
 }
 
-/* line 376, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 595, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .assinatura-caoselheiro h3 {
   font-size: 32px;
   font-weight: 700px;
   margin: 46px 0 16px;
 }
 
-/* line 382, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 601, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .assinatura-caoselheiro p {
   font-weight: 400;
   font-size: 16px;
@@ -441,7 +673,7 @@ header nav .nav-top .ofertas {
   margin-bottom: 32px;
 }
 
-/* line 390, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 609, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .infos .assinatura-caoselheiro img {
   width: 241px;
   height: 375px;
@@ -450,7 +682,7 @@ header nav .nav-top .ofertas {
   top: -25px;
 }
 
-/* line 401, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 620, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog {
   margin-top: 88px;
   display: flex;
@@ -460,7 +692,7 @@ header nav .nav-top .ofertas {
   position: relative;
 }
 
-/* line 408, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 627, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog h3 {
   font-size: 32px;
   line-height: 48px;
@@ -468,7 +700,7 @@ header nav .nav-top .ofertas {
   width: 100%;
 }
 
-/* line 415, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 634, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog article {
   width: 277px;
   border-radius: 20px;
@@ -476,13 +708,13 @@ header nav .nav-top .ofertas {
   overflow: hidden;
 }
 
-/* line 420, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 639, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog article img {
   width: 277px;
   height: 160px;
 }
 
-/* line 424, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 643, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog article h4 {
   margin: 24px 24px 16px;
   font-weight: 700;
@@ -490,7 +722,7 @@ header nav .nav-top .ofertas {
   line-height: 30px;
 }
 
-/* line 431, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 650, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog article p {
   font-weight: 400;
   font-size: 14px;
@@ -499,7 +731,7 @@ header nav .nav-top .ofertas {
   margin: 0 24px 24px;
 }
 
-/* line 439, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 658, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog article a {
   width: 153px;
   height: 48px;
@@ -512,7 +744,7 @@ header nav .nav-top .ofertas {
   margin: 0 24px 24px;
 }
 
-/* line 452, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 671, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog button.beforeBtn, .blog button.afterBtn {
   position: absolute;
   width: 32px;
@@ -530,13 +762,13 @@ header nav .nav-top .ofertas {
   z-index: 50;
 }
 
-/* line 469, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 688, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog button.afterBtn {
   left: 1272px;
   background-image: url(../images/arrow-right.png);
 }
 
-/* line 475, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 694, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog .breadCrumb {
   display: flex;
   justify-content: center;
@@ -544,7 +776,7 @@ header nav .nav-top .ofertas {
   width: 100%;
 }
 
-/* line 480, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 699, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .blog .breadCrumb button {
   margin: 0 8px;
   width: 12px;
@@ -554,7 +786,7 @@ header nav .nav-top .ofertas {
   border-radius: 50%;
 }
 
-/* line 492, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 711, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .instagram {
   margin: 88px 0 80px;
   display: flex;
@@ -563,14 +795,14 @@ header nav .nav-top .ofertas {
   position: relative;
 }
 
-/* line 499, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 718, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .instagram h3 {
   font-size: 32px;
   line-height: 48px;
   margin: 0 56px 32px;
 }
 
-/* line 505, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 724, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .instagram a {
   color: #FBB900;
   text-decoration: underline;
@@ -578,19 +810,19 @@ header nav .nav-top .ofertas {
   margin-right: 56px;
 }
 
-/* line 511, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 730, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .instagram .instagram-images {
   display: flex;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 516, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 735, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .instagram .instagram-images img {
   width: 243px;
 }
 
-/* line 522, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 741, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter {
   display: flex;
   flex-direction: column;
@@ -598,13 +830,13 @@ header nav .nav-top .ofertas {
   margin-bottom: 87px;
 }
 
-/* line 528, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 747, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter img {
   width: 281px;
   height: 104px;
 }
 
-/* line 532, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 751, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter form {
   width: 772px;
   height: 346px;
@@ -615,7 +847,7 @@ header nav .nav-top .ofertas {
   background-color: #FEF6E7;
 }
 
-/* line 540, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 759, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter form h4 {
   font-weight: 700;
   font-size: 24px;
@@ -625,7 +857,7 @@ header nav .nav-top .ofertas {
   margin: 40px 0 24px;
 }
 
-/* line 549, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 768, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter form .input-data {
   width: 343px;
   height: 48px;
@@ -637,21 +869,21 @@ header nav .nav-top .ofertas {
   border-radius: 10px;
 }
 
-/* line 562, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 781, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter form input[type=text] {
   background-image: url(../images/User.png);
   background-repeat: no-repeat;
   background-position: 23px center;
 }
 
-/* line 568, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 787, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter form input[type=email] {
   background-image: url(../images/EnvelopeSimple.png);
   background-repeat: no-repeat;
   background-position: 23px center;
 }
 
-/* line 575, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 794, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 .newsletter form .submit {
   width: 145px;
   height: 40px;
@@ -664,7 +896,7 @@ header nav .nav-top .ofertas {
   cursor: pointer;
 }
 
-/* line 590, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 809, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer {
   display: grid;
   grid-template-columns: 489px 791px;
@@ -673,14 +905,14 @@ footer {
   background-color: #FBB900;
 }
 
-/* line 600, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 819, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .about {
   text-align: center;
   border-right: 1px solid #fff;
   grid-area: sobre;
 }
 
-/* line 604, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 823, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .about h3 {
   font-size: 24px;
   line-height: 36px;
@@ -689,17 +921,17 @@ footer .about h3 {
   margin-top: 48px;
 }
 
-/* line 612, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 831, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .about h3:last-of-type {
   margin-top: 56px;
 }
 
-/* line 616, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 835, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .about img {
   margin: 32px 16px 0;
 }
 
-/* line 620, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 839, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .about p {
   width: 339px;
   font-weight: 400;
@@ -710,7 +942,7 @@ footer .about p {
   margin-top: 24px;
 }
 
-/* line 633, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 852, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links {
   display: grid;
   grid-template-columns: 266.66px 266.66px 266.63px;
@@ -720,7 +952,7 @@ footer .links {
   grid: "assinatura institucional atendimento" "pagamento  pagamento seguranca";
 }
 
-/* line 640, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 859, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links h3 {
   font-weight: 700;
   font-size: 20px;
@@ -729,12 +961,12 @@ footer .links h3 {
   margin-bottom: 20px;
 }
 
-/* line 648, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 867, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links li {
   text-align: left;
 }
 
-/* line 652, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 871, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links a {
   font-weight: 500;
   font-size: 14px;
@@ -743,44 +975,44 @@ footer .links a {
   text-align: left;
 }
 
-/* line 664, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 883, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .assinatura {
   grid-area: assinatura;
 }
 
-/* line 668, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 887, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .institucional {
   grid-area: institucional;
 }
 
-/* line 672, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 891, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .atendimento {
   grid-area: atendimento;
 }
 
-/* line 676, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 895, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .pagamento {
   grid-area: pagamento;
 }
 
-/* line 679, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 898, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .pagamento img {
   width: 66px;
   height: 38px;
   margin: 4px 7px;
 }
 
-/* line 685, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 904, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .pagamento img:nth-of-type(1), footer .links .pagamento img:nth-of-type(4) {
   margin-left: 0;
 }
 
-/* line 690, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 909, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .links .seguranca {
   grid-area: seguranca;
 }
 
-/* line 697, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 916, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .rodape {
   color: #fff;
   padding: 40px 56px;
@@ -789,7 +1021,7 @@ footer .rodape {
   align-items: center;
 }
 
-/* line 703, ../../../OneDrive/Área de Trabalho/Teste front end/teste-front-end/assets/SASS/estilo.scss */
+/* line 922, ../../../../../xampp/htdocs/Teste front/assets/SASS/estilo.scss */
 footer .rodape img:first-of-type {
   margin-left: 256px;
   margin-right: 32px;
